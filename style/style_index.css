@@ -1,0 +1,201 @@
+body{
+    width: 1260px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #26253B;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.presentacion{
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background-image: url("../img/imagen_presentacion_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+
+.presentacion h1{
+    font-size: 60px;
+    margin: 10px auto 0%;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.presentacion h3{
+    font-size: 25px;
+    margin: 0% auto;
+    width: 900px;
+}
+
+.presentacion .botones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+    width: 850px;
+}
+
+.presentacion .botones .boton_1{
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(to bottom, #009432, #006266);
+    color: aliceblue;
+    border-radius: 10px;
+    border: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 5px 5px 20px black;
+}
+
+.presentacion .botones .boton_1:hover{
+    cursor: pointer;
+    width: 403px;
+    height: 103px;
+}
+
+.presentacion .botones .boton_2{
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(to bottom, #3867d6, #1B1464);
+    color: aliceblue;
+    border-radius: 10px;
+    border: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 5px 5px 20px black;
+}
+
+.presentacion .botones .boton_2:hover{
+    cursor: pointer;
+    width: 403px;
+    height: 103px;
+}
+
+.presentacion .botones .boton_1 .texto{
+    height: 80px;
+    margin: auto auto;
+}
+
+.presentacion .botones .boton_2 .texto{
+    height: 80px;
+    margin: auto auto;
+}
+
+.presentacion .botones .boton_1 .titulo_boton_1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    grid-column: 2;
+    grid-row: 1;
+    width: 300px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.presentacion .botones .boton_1 .subtitulo_boton_1{
+    font-size: 17px;
+    margin-top: 0%;
+    grid-column: 2;
+    grid-row: 2;
+    text-shadow: 2px 2px 5px black;
+}
+
+.presentacion .botones .boton_2 .titulo_boton_2{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    grid-column: 2;
+    grid-row: 1;
+    width: 300px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.presentacion .botones .boton_2 .subtitulo_boton_2{
+    font-size: 17px;
+    margin-top: 0%;
+    grid-column: 2;
+    grid-row: 2;
+    text-shadow: 2px 2px 5px black;
+}
+
+.presentacion .botones .icono_boton{
+    height: 70px;
+    grid-column: 1;
+    grid-row: 1/2;
+    margin: auto;
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informacion .jugadores{
+    border-right: 1px solid whitesmoke;
+}
+
+.informacion .canchas{
+    margin-left: 50px;
+}
+
+.informacion .jugadores button{
+    background: linear-gradient(to bottom, #009432, #006266);
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 100px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.informacion .jugadores button:hover{
+    cursor: pointer;
+    width: 205px;
+    height: 42px;
+}
+
+.informacion .canchas button{
+    background: linear-gradient(to bottom, #3867d6, #1B1464);
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 100px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.informacion .canchas button:hover{
+    cursor: pointer;
+    width: 205px;
+    height: 42px;
+}
+
+footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo_pie{
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 5px 30px;
+    margin-right: 20px;
+}
