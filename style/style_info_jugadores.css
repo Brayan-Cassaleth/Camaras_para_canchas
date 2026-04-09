@@ -15,6 +15,7 @@ body{
     background-position: center;
     color: aliceblue;
     border-bottom: 1px solid white;
+    text-shadow: 2px 2px 5px black;
 }
 
 .presentacion h1{
@@ -26,6 +27,33 @@ body{
     flex-direction: column;
     align-items: left;
     justify-content: flex-end;
+}
+
+.presentacion h3{
+    font-size: 25px;
+    margin: 10px 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+}
+
+.como_funciona{
+    color: aliceblue;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.como_funciona h1{
+    margin-bottom: 0%;
+    font-size: 50px;
+}
+
+.como_funciona h3{
+    margin-top: 0%;
 }
 
 .informacion{
@@ -72,6 +100,66 @@ body{
     cursor: pointer;
     width: 205px;
     height: 42px;
+}
+
+.planes_jugadores{
+    color: aliceblue;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.planes_jugadores .titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.planes_jugadores .titulo img{
+    margin-left: 30px;
+    height: 35px;
+}
+
+.planes_jugadores .titulo h1{
+    margin-left: 0%;
+    font-size: 40px;
+}
+
+.planes_jugadores .planes{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planes_jugadores .planes .quince{
+    width: 500px;
+    background: linear-gradient(to bottom, #009432, #006266);
+    height: 40px;
+}
+
+.planes_jugadores .planes .cuarenta{
+    width: 500px;
+    background: linear-gradient(to bottom, #3867d6, #1B1464);
+    height: 40px;
+}
+
+.planes_jugadores ul{
+    list-style: none;
+    text-align: left;
+    text-shadow: 2px 2px 5px black;
+    font-size: 20px;
+}
+
+.planes_jugadores ul li{
+    margin: 15px;
+}
+.planes_jugadores ul li img{
+    height: 18px;
+    margin-right: 15px;
 }
 
 footer{
