@@ -52,13 +52,9 @@ body{
     font-size: 50px;
 }
 
-.como_funciona h3{
-    margin-top: 0%;
-}
-
 .informacion{
-    width: 800px;
-    height: 300px;
+    width: 1200px;
+    height: 150px;
     margin: auto;
     color: aliceblue;
     font-size: 20px;
@@ -66,40 +62,27 @@ body{
     margin-top: 20px;
 }
 
-.informacion .jugadores button{
-    background: linear-gradient(to bottom, #009432, #006266);
-    color: aliceblue;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: none;
-    margin-left: 100px;
-    box-shadow: 2px 2px 10px black;
+.informacion .jugadores ul{
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.informacion .jugadores button:hover{
-    cursor: pointer;
-    width: 205px;
-    height: 42px;
+.informacion .jugadores ul p{
+    font-size: 50px;
 }
 
-.informacion .canchas button{
-    background: linear-gradient(to bottom, #3867d6, #1B1464);
-    color: aliceblue;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: none;
-    margin-left: 100px;
-    box-shadow: 2px 2px 10px black;
+.informacion .jugadores ul li{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
 
-.informacion .canchas button:hover{
-    cursor: pointer;
-    width: 205px;
-    height: 42px;
+.informacion .jugadores ul img{
+    height: 80px;
 }
 
 .planes_jugadores{
