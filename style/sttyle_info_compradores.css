@@ -58,7 +58,7 @@ body{
 
 .informacion{
     width: 1200px;
-    height: 100px;
+    height: 500px;
     margin: auto;
     color: aliceblue;
     font-size: 20px;
@@ -66,83 +66,45 @@ body{
     margin-top: 20px;
 }
 
-.informacion .jugadores ul{
-    height: 100px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.informacion .jugadores ul p{
-    font-size: 50px;
-}
-
-.informacion .jugadores ul li{
-    width: 300px;
+.informacion .beneficios{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-}
-
-.informacion .jugadores ul img{
-    height: 80px;
-}
-
-.planes_jugadores{
-    color: aliceblue;
-    width: 830px;
-    height: 300px;
-    margin: auto;
-    text-align: center;
-    display: flex;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
 }
 
-.planes_jugadores .plan_mensual{
-    width: 400px;
-    background: linear-gradient(to bottom, #009432, #006266);
-    height: 40px;
-    border-radius: 5px;
-    margin-bottom: 0;
+.informacion .beneficios div{
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
 }
 
-.planes_jugadores .plan_trimestral{
-    width: 400px;
-    background: linear-gradient(to bottom, #3867d6, #1B1464);
-    height: 40px;
-    border-radius: 5px;
-}
-
-.planes_jugadores .plan_mensual h2, .plan_trimestral h2{
-    margin-top: 0%;
-}
-
-.planes_jugadores .plan_mensual h3, .plan_trimestral h3{
-    font-size: 35px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    text-shadow: 2px 2px 5px black;
-}
-
-.planes_jugadores .plan_mensual ul, .plan_trimestral ul{
-    list-style: none;
-    text-align: left;
-    text-shadow: 2px 2px 5px black;
+.informacion .beneficios div h2{
     font-size: 20px;
-    margin-top: 5px;
 }
 
-.planes_jugadores ul li{
-    margin: 10px;
+.informacion .beneficios div p{
+    font-size: 18px;
 }
 
-.planes_jugadores ul li img{
+.planes{
+    text-shadow: 2px 2px 5px black;
+    color: aliceblue;
+    width: 500px;
+    margin: auto;
+    background: gray;
+    font-size: 20px;
+}
+
+.planes ul{
+    list-style: none;
+}
+
+.planes ul li img{
     height: 18px;
     margin-right: 10px;
 }
 
-.planes_jugadores .plan_mensual button, .plan_trimestral button{
+.planes button{
     width: 200px;
     height: 40px;
     background: linear-gradient(to bottom, #009432, #006266);
@@ -151,27 +113,6 @@ body{
     border-radius: 5px;
     border: whitesmoke;
     margin-bottom: 0%;
-}
-
-.planes_jugadores .plan_mensual button:hover{
-    cursor: pointer;
-    width: 203px;
-    height: 43px;
-}
-
-.planes_jugadores .plan_trimestral button:hover{
-    cursor: pointer;
-    width: 203px;
-    height: 43px;
-}
-
-.consulta{
-    color: whitesmoke;
-    text-shadow: 2px 2px 5px black;
-    width: 500px;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
 }
 
 .consulta a{
