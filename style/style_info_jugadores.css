@@ -150,41 +150,102 @@ aside{
     border-bottom: 2px solid #29A71A;
     border-radius: 10px;
     width: 400px;
+    height: 300px;
     margin: auto;
 }
 
 .informacion2 div h2{
     margin-bottom: 0;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .informacion2 div h1{
     margin-top: 0;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-.informacion2 div p{
+.informacion2 div ul li{
     width: 350px;
-    margin-left: 50px;
+    list-style: none;
+}
+
+.informacion2 div img{
+    height:20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.informacion2 div button{
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
+    color: aliceblue;
+    background: #29A71A;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.informacion2 div button:hover{
+    cursor: pointer;
+    width: 205px;
+    height: 35px;
+    font-size: 18px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.beneficios_para_ti{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.beneficios_para_ti h1{
+    margin: 10px auto;
+    width: 500px;
+}
+
+.beneficios_para_ti .beneficios_jugadores{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.beneficios_para_ti .beneficios_jugadores .opciones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 250px;
+}
+
+.beneficios_para_ti .beneficios_jugadores .opciones p{
+    width: 160px;
+}
+
+.beneficios_para_ti .beneficios_jugadores .opciones img{
+    height: 80px;
+    border-radius: 10px;
 }
 
 .consulta{
-    background-image: url("../img/fondo_balon.png");
+    background-image: url("../img/fondo_jugador.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .consulta .contacto{
     width: 600px;
-    margin-left: 50px;
+    margin-left: 300px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .consulta .contacto h1{
+    margin-top: 40px;
     margin-bottom: 0;
     font-size: 30px;
 }
@@ -194,11 +255,15 @@ aside{
     font-size: 20px;
 }
 
-.consulta .contacto a{
+.consulta .botones{
+    width: 300px;
+}
+
+.consulta .botones a{
     text-decoration: none;
 }
 
-.consulta .contacto button{
+.consulta .botones button{
     height: 40px;
     width: 200px;
     font-size: 15px;
@@ -209,17 +274,18 @@ aside{
     background: #29A71A;
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px black;
+    margin: 50px auto;
 }
 
-.consulta .contacto button:hover{
+.consulta .botones button:hover{
     height: 45px;
     width: 210px;
     font-size: 16px;
     cursor: pointer;
+    box-shadow: 5px 5px 20px black;
 }
 
-.consulta .contacto button img{
+.consulta .botones button img{
     height: 30px;
     margin-right: 10px;
 }
